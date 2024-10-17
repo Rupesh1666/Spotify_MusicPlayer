@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Music Player UI 🎵
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a music player application built using **React JS**. The interface is designed to match the provided Figma design and implements several interactive features such as music controls, search, and responsive design. 
 
-## Available Scripts
+## Features
+1. **React JS-based Interface**: The application is built using React JS for smooth and interactive UI.
+2. **Design Accuracy**: The interface closely follows the given Figma design.
+3. **Responsive Design**: The music player is responsive across various screen sizes. On smaller screens, the player component serves as the main interface, with a menu button to display the list of songs.
+4. **REST API Integration**: The app fetches song data from the provided API using the REST API and loads a list of songs dynamically.
+5. **Dynamic Cover Image Handling**: Song cover images are fetched based on the key from the API 
+6. **Persistent Music Playback**: Music continues to play even when the user navigates to another browser tab.
+7. **Background Gradient Animation**: The background gradient color changes dynamically based on the current song's cover image, as specified in the design.
+8. **Fluid Animations**: The interface is designed to be fluid and interactive with animations for actions like list loading and background color transitions.
 
-In the project directory, you can run:
+## Functional Requirements
 
-### `npm start`
+The application includes the following features:
+**Search Functionality**: Allows users to search through the song list.
+**Music Controls**:
+Play/Pause
+Next/Previous Track
+Seeker for adjusting the current playback position.
+**Seamless Playback Control**: Users can control music through a seeker, allowing for precise navigation within a track.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
